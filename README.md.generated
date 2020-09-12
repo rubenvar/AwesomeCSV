@@ -11,24 +11,9 @@ When the final cockroach breathes her last breath, her dying act will be to scra
 
 ## Contents
 
-- [Tools](#tools)
-  - [Repair or Validate CSV](#repair-or-validate-csv)
-  - [Treat CSV as SQL](#treat-csv-as-sql)
-  - [Convert to or from CSV](#convert-to-or-from-csv)
-  - [CSV <-> JSON](#csv---json)
-- [Essays](#essays)
-- [Data](#data)
-- [Conferences](#conferences)
-- [Standards](#standards)
-- [META: Other similar lists](#meta-other-similar-lists)
-- [Code of Conduct](#code-of-conduct)
-- [Funtribute](#funtribute)
-- [Footnotes](#footnotes)
-
-
 Here are some awesome tools for dealing with CSV:
 
-## Tools
+### Tools
 
 - [NimbleText/Live](https://NimbleText.com/Live) - Use patterns to manipulate CSV; the world's simplest code generator *.
 - [PapaParse](https://www.papaparse.com) - A powerful in-browser CSV parser.
@@ -63,7 +48,7 @@ Here are some awesome tools for dealing with CSV:
 - [scrubcsv](https://github.com/faradayio/scrubcsv) - Remove bad records from a CSV file and normalize (requires rust).
 - [reconcile-csv](https://github.com/OpenRefine/reconcile-csv/blob/master/README.md) - Find relationships between a set of related CSVs.
 
-## Generate Table Schema
+### Generate Table Schema
 
 > Wanted: More tools in this category.
 
@@ -87,8 +72,7 @@ Here are some awesome tools for dealing with CSV:
 - [csv2json](https://www.csvjson.com/csv2json) - Online tool to convert your CSV or TSV formatted data to JSON and [vice versa](https://www.csvjson.com/json2csv).
 - [csv-to-json](https://mango-is.com/tools/csv-to-json/) - Easy, privacy-friendly and offline-first online csv to json converter.
 
-
-## Essays
+### Essays
 
 > Once you've found the perfect data serialization file format, you stop looking
 >
@@ -102,37 +86,36 @@ Here are some awesome tools for dealing with CSV:
 - [Falsehoods Programmers Believe About CSVs](https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs) - Jesse Donat.
 - [ASCII Delimited Text - Not CSV or TAB delimited text](https://ronaldduncan.wordpress.com/2009/10/31/text-file-formats-ascii-delimited-text-not-csv-or-tab-delimited-text/) - Ronald Duncan.
 
-## Data
+### Data
 
 - [US Data.gov](https://catalog.data.gov/dataset?res_format=CSV) - 18789+ CSV datasets.
 - [Australian Government Open Data](https://data.gov.au/dataset?res_format=CSV) - 2715+ CSV datasets.
 - [Reference data in csv](https://datahub.io/collections/reference-data) - Easy-to-use reference data in CSV and JSON formats.
 - [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) - A topic-centric list of high-quality open datasets in public domains.
 
-## Conferences
+### Conferences
 
 - [csv,conf](https://csvconf.com/) - A community conference for data makers everywhere.
 
-## Standards
+### Standards
 
 > The wonderful thing about standards is that there are so many of them to choose from.<br />&mdash;(Possibly) Grace Hopper.
 
 - [RFC 4180](https://tools.ietf.org/html/rfc4180) - 'Common format and MIME Type for Comma-Separated Values (CSV) Files'.
-  - [Definition of the CSV Format](https://tools.ietf.org/html/rfc4180#section-2)
-  - [MIME Type Registration of text/csv](https://tools.ietf.org/html/rfc4180#section-3)
-- [W3C: Model for Tabular Data and Metadata on the Web](https://www.w3.org/TR/tabular-data-model/)
+- [Definition of the CSV Format](https://tools.ietf.org/html/rfc4180#section-2) - Definition.
+- [MIME Type Registration of text/csv](https://tools.ietf.org/html/rfc4180#section-3) - Mime-type.
+- [W3C: Model for Tabular Data and Metadata on the Web](https://www.w3.org/TR/tabular-data-model/) - W3C model.
 - [CSV Schema Language](http://digital-preservation.github.io/csv-schema/csv-schema-1.2.html) - A language for defining and validating CSV data.
 - [csvz](https://github.com/secretGeek/csvz) - Emerging standard for zipped csv containers with optional meta data ****.
 - [csv,specs](https://github.com/csvspecs) - Comma-Separated Values (CSV) Format Specifications (and Tests) incl. CSV v1.0, CSV v1.1, CSV Strict, CSV <3 Numerics, CSV<3 JSON, CSV <3 YAML.
 - [Tabular Data Resource](http://frictionlessdata.io/specs/tabular-data-resource/) - A [Data Resource](http://frictionlessdata.io/specs/data-resource/) specialized for describing tabular data like CSV files or spreadsheets.
 - [CSVY](https://csvy.org/) - A standard for adding a YAML header to CSV files to describe their format.
 
-## META: Other similar lists
+### META: Other similar lists
 
 - [structured-text-tools](https://github.com/dbohdan/structured-text-tools) - List of command line tools for manipulating CSV / XML / HTML / JSON / INI etc.
 - [META-META](https://raw.githubusercontent.com/secretGeek/AwesomeCSV/master/awesomecsv.csv) - **This list as CSV**.
-- [META-META-META](https://nimbletext.com/Live/24900058/) - A NimbleText pattern that produces this markdown page from this list as a CSV.
-
+- [META-META-META](https://nimbletext.com/Live/-971009575/) - A NimbleText pattern that produces this markdown page from this list as a CSV.
 ## Code of Conduct
 
 See [Code of Conduct](code-of-conduct.md)

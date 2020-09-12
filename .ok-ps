@@ -1,0 +1,4 @@
+meta: .\meta.ps1  # generate readme.md.generated (no toc)
+compare: sgdm .\README.md .\readme.md.generated
+gui: nimbletext.com -i .\awesomecsv.csv  -f .\readme.md.ntp -q '"' -gui
+& "nimbletext.com" -i .\awesomecsv.csv -f .\readme.md.ntp -gui
